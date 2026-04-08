@@ -116,15 +116,15 @@ export default function Home() {
           </div>
 
           {/* IMAGE */}
-          <div
-            className="relative w-[240px] h-[350px] flex items-center justify-center rounded-full mt-3 mb-5 bg-slate-50/95 z-10"
-            style={{
-              backgroundImage: "url('/src/assets/2.jpg')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
+        <div
+  className="relative w-[240px] h-[350px] flex items-center justify-center rounded-full mt-3 mb-5 bg-slate-50/95 z-10"
+  style={{
+    backgroundImage: "url('/images/2.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
             <div className="absolute top-4 right-4 flex items-center justify-center w-12 h-12 rounded-full bg-white hover:bg-blue-700 cursor-pointer transition group">
               <FaPlus className="text-blue-700 group-hover:text-white text-lg" />
             </div>
